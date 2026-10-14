@@ -1,0 +1,11 @@
+
+{
+  "idAlumno": "ALU-001",
+  "prestamosPendientes": 0,
+  "montoMultas": 0,
+  "constancia": {
+    "folio": "NA-2026-0001",
+    "estado": "EMITIDA",
+    "selloValidacion": "SELLO-INSTITUCIONAL"
+  }
+}
