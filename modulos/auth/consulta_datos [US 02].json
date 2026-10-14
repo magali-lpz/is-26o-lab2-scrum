@@ -1,0 +1,9 @@
+```json
+{
+  "matricula": "2193001122",
+  "nombre": "Eduardo Alvarez Garcia Alvarez",
+  "rol": "Alumno",
+  "correo": "ana.perez@universidad.edu",
+  "estatus_cuenta": "ACTIVA",
+  "ultimo_acceso": "2026-10-13T19:30:00Z"
+}
