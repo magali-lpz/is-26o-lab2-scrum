@@ -3,7 +3,7 @@
 ## 1. Información general
 
 - **Módulo:** Biblioteca / Gestión de alumnos
-- **Historia asociada:** US-XX – Consulta de perfil escolar
+- **Historia asociada:** US-02 – Consulta de perfil escolar
 - **Actor principal:** Bibliotecario
 
 ## 2. Flujo de interacción del usuario
