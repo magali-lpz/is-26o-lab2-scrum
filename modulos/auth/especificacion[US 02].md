@@ -20,5 +20,3 @@
 - **Préstamos activos:** Se debe indicar claramente si el alumno tiene libros en préstamo.
 - **Información actualizada:** El estado de los préstamos debe corresponder a los registros vigentes de la biblioteca.
 ```
-
-*Nota: Los datos del ejemplo son ficticios y deben sustituirse por los campos y registros reales del sistema.*
