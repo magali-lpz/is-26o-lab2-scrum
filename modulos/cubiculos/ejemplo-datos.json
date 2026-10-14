@@ -1,0 +1,21 @@
+{
+  "reserva": {
+    "id_reserva": "CUB-2026-016",
+    "id_alumno": "A001",
+    "id_cubiculo": "CUB-03",
+    "fecha": "2026-10-14",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "estado_reserva": "CANCELADA",
+    "fecha_hora_cancelacion": "2026-10-14T13:20:00",
+    "penalizacion": false
+  },
+  "cubiculo": {
+    "id_cubiculo": "CUB-03",
+    "estado": "DISPONIBLE"
+  },
+  "liberacion_anticipada": {
+    "hora_salida": "15:15",
+    "estado": "FINALIZADA_ANTICIPADAMENTE"
+  }
+}
