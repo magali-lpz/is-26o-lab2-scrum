@@ -20,3 +20,13 @@
 - **Préstamos activos:** Se debe indicar claramente si el alumno tiene libros en préstamo.
 - **Información actualizada:** El estado de los préstamos debe corresponder a los registros vigentes de la biblioteca.
 ```
+## 4. Ejemplo de datos (Estructura esperada en JSON)
+```json
+{
+  "matricula": "2193001122",
+  "nombre": "Ana Pérez Gómez",
+  "rol": "Alumno",
+  "correo": "ana.perez@universidad.edu",
+  "estatus_cuenta": "ACTIVA",
+  "ultimo_acceso": "2026-10-13T19:30:00Z"
+}
