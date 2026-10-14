@@ -1,0 +1,46 @@
+``` json
+1. Validar formato de matricula
+{
+  "id_sesion": "SES-2026-8891",
+  "matricula_alumno": "2223044739",
+  "validacion_matricula": {
+    "es_formato_valido": true,
+    "longitud_digitos": 10,
+    "mensaje": "La matrícula cumple con el formato institucional de 10 dígitos numéricos."
+  },
+  "nombre_alumno": "Edrick Yamil",
+  "division": "Ciencias Básicas e Ingeniería",
+  "servicios_autorizados": [
+    "Préstamo a domicilio", 
+    "Bases de datos digitales", 
+    "Reserva de cubículos"
+  ],
+  "fecha_acceso": "2026-10-13",
+  "hora_acceso": "19:44",
+  "estatus_acceso": "AUTORIZADO"
+}
+
+2. denegar acceso
+* caso exitoso
+{
+  "matricula_alumno": "2223044739",
+  "estatus_acceso": "AUTORIZADO",
+  "sanciones_activas": false,
+  "id_sesion": "SES-2026-8891"
+}
+
+* caso malo
+{
+  "matricula_alumno": "2223044739",
+  "estatus_acceso": "DENEGADO",
+  "sanciones_activas": true,
+  "error": {
+    "codigo": "ERR-SANCION-ACTIVA",
+    "mensaje": "Acceso denegado. El usuario cuenta con una sanción vigente en el sistema de biblioteca.",
+    "detalles_sancion": {
+      "motivo": "Material dañado no repuesto",
+      "fecha_imposicion": "2026-10-01",
+      "estado": "Pendiente de resolución"
+    }
+  }
+}
